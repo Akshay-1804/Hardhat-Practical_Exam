@@ -1,0 +1,19 @@
+* What is Hardhat ? 
+
+ Hardhat is a delopment Environment for Ethereum softwares. which provides components for developing, testing, debugging and deploying smart contracts and Dapps.
+It is written in javascript language. It has a built-in local network to deploy and test smart contracts locally.
+
+
+* Demonstrate the steps involved in the process of installation and configuration of Hardhat Development
+Environment? 
+
+1) create directory for project and navigate to project directory 
+2) set up node 
+3) initiate new npm project by command
+"npm init -y"
+4) install hardhat and dependencies 
+"npm install --save-dev hardhat"
+5) configure hardhat by creating "hardhat.config.js" fille in root directory
+"npx hardhat"
+
+6) to costomize the configuration file open "hardhat.config.js" in text editor .this file contain various javascript object with various configuration options such as Solidity version, networks, Accounts and plugins we can modify them as per project requirement.
